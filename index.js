@@ -28,3 +28,24 @@ searchButton.addEventListener('click', () => {
         })
         .catch(error => console.log(error));
 });
+
+
+// const jsonmn = {
+//     "breed": "Beagle",
+//     "size": "large",
+//     "color": "orange",
+//     "age": 6
+// }
+
+
+// fetch('localhost/pets/add', {
+//             method: 'GET',
+//             headers: {
+//                 'Content-Type': 'application/json; charset=utf-8'
+//             },
+//         })
+//         .then(response => response.json())
+//         .then(data => {
+//             console.log(data)
+//             })
+//         .catch(error => console.log(error));
